@@ -1,0 +1,6 @@
+labraries Used For This Project
+
+
+react
+react-router-dom
+styles

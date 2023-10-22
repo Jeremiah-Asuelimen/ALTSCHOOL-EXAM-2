@@ -1,0 +1,49 @@
+#count-box { 
+    margin: 160px auto; 
+    width: 800px; 
+    height: 500px; 
+    font-weight: 700; 
+    font-size: 36px; 
+    padding-top: 80px; 
+    border-radius: 50px; 
+    background: linear-gradient(145deg, #7fffda, #6892af); 
+    box-shadow: 36px 36px 33px #3f596b, -36px -36px 33px #a7ebff; 
+  } 
+  .values { 
+    text-align: center; 
+  } 
+  #input { 
+    height: 40px; 
+    width: 300px; 
+    outline: none; 
+    font-size: 25px; 
+    padding-left: 30px; 
+  } 
+  #btn { 
+    font-size: 25px; 
+    margin-right: 14px; 
+    padding: 15px 25px; 
+    background-color:palegreen;
+    border: 0px; 
+    border-radius: 50px; 
+    cursor: pointer; 
+    text-align: center;
+    text-decoration: none;
+    color: white;
+  } 
+  #btn:hover { 
+    background-color: #45a049;
+    font-weight: 600;
+    
+  } 
+  /* .values button:first-of-type, 
+  .values button:last-of-type { 
+    background-color: rgb(242, 210, 189); 
+  }  */
+  @media (max-width: 1024px) { 
+    #count-box { 
+      margin: 50px auto; 
+      height: 420px; 
+    } 
+  }
+ 
